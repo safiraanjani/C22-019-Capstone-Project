@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.register img {
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  background-color: transparent;
+}
+
+.register h3 {
+  text-align: center;
+}
+
+.signup-box {
+  width: 360px;
+  height: 330px;
+  margin-top: 5%;
+  margin-bottom: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+
+.login-box {
+  width: 360px;
+  height: 260px;
+  margin-top: 5%;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 12px;
+}
+
+.signup-box h3 {
+  text-align: center;
+}
+
+.login-box h3 {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+
+form button{
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #49c1a2;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #4d84e2;
+}
+
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+
+.p-login {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+.p-login a {
+  color: #49c1a2;
+}
+
+.p-signup {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+.p-signup a {
+  color: #49c1a2;
+}
