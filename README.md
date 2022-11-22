@@ -10,8 +10,5 @@ https://drive.google.com/drive/folders/1lUVnh4GypynsNsSX1Ys1BYgZJezTAeiT?usp=sha
 [C22-019 Figma]
 https://www.figma.com/files/team/1171268366925217562
 
-[C22-019 PPT Capstone Project]
-https://docs.google.com/presentation/d/1SPy8qzy1bwJplDgxzc_5izwri-uvtqv0vb5QyBlhbbM/edit?usp=sharing
-
 [C22-019 Github]
 https://github.com/safiraanjani/C22-019-Capstone-Project
