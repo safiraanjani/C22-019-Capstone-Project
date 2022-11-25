@@ -13,10 +13,21 @@ body {
 margin-top: 5%;
 }
 
+.galeri {
+    padding: 3rem;
+}
+
 .profile h1 {
     text-align: center;
     color: #4649FF;
   }
+
+.galeri h1 {
+    font-size: 3rem;
+    padding: 3rem;
+    text-align: center;
+    color: #4649FF;
+}
 
   .profile h4 {
     text-align: center;
@@ -26,6 +37,52 @@ margin-top: 5%;
   .profile hr {
     color: #FF66C4;
   }
+
+.galeri hr {
+    margin: auto;
+    width: 90%;
+    border-width: 2px;
+    border-color: #ff66c4;
+}
+
+.row {
+    margin-top: 50px;    
+}
+
+.galeri .image {
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+}
+
+.galeri .overlay {
+    position: absolute;
+    top: -20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 95%;
+    width: 95%;
+    opacity: 0;
+    margin: auto;
+    transition: .5s ease;
+    background-color: rgba(23, 23, 23, 0.753);
+    border-radius: 10px;
+}
+
+.galeri .thumbnail .caption {
+    font-size: 3rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #A0EEFF;
+}
+
+.galeri .thumbnail {
+    border-style: none;
+}
 
  .profile button{
     width: 100px;
@@ -44,6 +101,16 @@ margin-top: 5%;
   .profile button:hover {
     background-color: #4d84e2;
   }
+
+.galeri .thumbnail:hover {
+    box-shadow: #4649FF;
+}
+
+.galeri .img-container:hover .overlay {
+    opacity: 1;
+    border-radius: 10px;
+    margin: auto;
+}
 
   .user-profile {
     width: 380px;
